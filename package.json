@@ -1,0 +1,35 @@
+{
+  "name": "oss-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "up": "node scripts/up.js",
+    "cp": "node scripts/cp.js",
+    "rm": "node scripts/rm.js",
+    "u": "npm run up && npm run cp && npm run rm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luoyuda/oss-upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luoyuda/oss-upload/issues"
+  },
+  "homepage": "https://github.com/Luoyuda/oss-upload#readme",
+  "dependencies": {
+    "image-size": "^1.0.1",
+    "imagemin": "^7.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^9.0.0",
+    "imagemin-webp": "^7.0.0",
+    "shelljs": "^0.8.5"
+  }
+}
